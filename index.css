@@ -1,0 +1,50 @@
+* {
+  background: #21082f;
+  color: #877aab;
+  font-family: "Share Tech Mono";
+
+}
+.main {
+  max-width: 960px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  border: 1px solid #877aab;
+  margin: 0 auto
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+.title {
+  padding: 2% 2% 0% 2%;
+  display: flex;
+  font-size: 1rem;
+  flex-grow: 1;
+  font-weight: lighter;
+}
+
+.content {
+  padding: 0% 2% 0% 2%;
+  display: flex;
+  font-size: 2rem;
+  flex-grow: 1;
+  font-weight: bolder;
+}
+
+.projects {
+  display: flex;
+  padding: 0% 2% 0% 2%;
+
+}
+
+.projects table {
+  font-size: 1rem;
+  font-size: 5px;
+}
+
+.projects_title {
+  font-weight: lighter;
+}
