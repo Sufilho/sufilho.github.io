@@ -1,8 +1,7 @@
 * {
-  background: #21082f;
-  color: #877aab;
+  background: #d4d4d4;
+  color: #392f53;
   font-family: "Share Tech Mono";
-
 }
 .main {
   max-width: 960px;
@@ -47,4 +46,13 @@
 
 .projects_title {
   font-weight: lighter;
+}
+
+.note {
+  color: rgba(255, 0, 0, 0.322);
+}
+
+.name {
+  font-size: 2rem;
+  font-weight: 1000;
 }
